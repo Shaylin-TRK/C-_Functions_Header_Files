@@ -119,13 +119,7 @@ std::string input(std::string message = "") {
 
 
 
-void WAIT(std::string message="Press [ENTER] to continue...") {
-    Sleep(200);
-    std::cout << message;
-    std::cin;
-}
-
-
+// conversion of variables with type "std::string" to char
 
 const char* to_const_char(std::string in) {
     char work[in.size()];
